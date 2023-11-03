@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My Blog</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+  <header>
+    <a href="#" class="logo">My Blog</a>
+    <div class="header__menu-toggle"></div>
+  </header>
+  <ul class="navigation">
+    <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+    <li><a href="#about" onclick="toggleMenu();">About</a></li>
+    <li><a href="#post" onclick="toggleMenu();">Post</a></li>
+    <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+  </ul>
+
+  <!-- Banner -->
+  <section class="banner" id="home">
+    <img src="images/banner.jpg" class="cover"/>
+    <div class="contentBx">
+      <h2>The soul of the world</h2>
+      <h4>A simpl blog website.</h4>
+      <a href="#" class="btn">About us</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="title">
+      <h2>About me</h2>
+    </div>
+    <div class="contentBx">
+      <div class="content">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate pariatur distinctio libero! Cum ab mollitia aut? Impedit tempore, tenetur non nemo labore, deserunt, dignissimos eaque quibusdam at dolores aut sed. Adipisci, dolores illo nulla debitis pariatur blanditiis fugit, rerum aspernatur distinctio, veniam doloremque magnam tempore quis? Expedita magni dolorem cum illum unde ipsum magnam nesciunt minus quidem dolore neque obcaecati eaque laborum omnis quo, repellat maxime, a eos? Sequi quaerat itaque porro nihil ipsa, temporibus hic neque eveniet aperiam voluptatum tempore, laudantium adipisci incidunt totam doloremque reprehenderit fugiat repudiandae provident, velit odio nobis. Aut non ut quasi molestiae, commodi numquam esse omnis, sit voluptas adipisci quam odit debitis dolores fugiat deleniti. Doloremque expedita odio sint nam incidunt placeat, fuga sunt dolore est consectetur eos vero qui vitae fugit sapiente aperiam nobis facilis voluptates natus magni amet ipsum. Velit accusamus mollitia quod, sed inventore distinctio culpa vero. <br><br>Reiciendis reprehenderit quidem odit harum molestias? Repudiandae error sapiente eius, nihil exercitationem veniam corrupti eos adipisci doloremque qui maxime voluptate delectus, nulla distinctio nisi explicabo vero rem, temporibus accusamus reprehenderit ipsam enim sed molestiae? In fugit optio quam at facilis mollitia rerum, tempore assumenda reiciendis, illum facere repudiandae amet modi consequuntur. Voluptas eveniet dolor harum dicta ab quisquam reprehenderit dolores consequatur! Omnis vero minus id similique vel reiciendis ex! Saepe quas voluptatibus dolorum error vero fugiat architecto quo ipsum iusto neque aliquam earum nam omnis consequuntur, nisi laudantium dolores sunt iure debitis. Soluta aliquam ratione quod! Tempore cum sed voluptatem. Suscipit nostrum necessitatibus modi.</p>
+      </div>
+      <div class="content">
+        <div class="imgBx">
+          <img src="./images/img1.jpg" class="cover">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Latest Blog Post -->
+  <section class="post" id="post">
+    <div class="title">
+      <h2>Latest Post</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia quod distinctio placeat! Voluptatum veniam sit ea, in hic excepturi quo, corrupti molestias, atque eum rerum?</p>
+    </div>
+    <div class="contentBx">
+      <div class="postColumn">
+        <div class="postBox">
+          <div class="imgBx">
+            <img src="images/post1.jpg" class="cover">
+          </div>
+          <div class="textBx">
+            <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur dolores neque similique nesciunt reiciendis facere. Ad, consectetur! Harum voluptatibus pariatur earum! Molestias sunt reprehenderit quidem.</h3>
+            <a href="#" class="btn">Read More</a>
+          </div>
+        </div>
+        <div class="postBox">
+          <div class="imgBx">
+            <img src="images/post2.jpg" class="cover">
+          </div>
+          <div class="textBx">
+            <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur dolores neque similique nesciunt reiciendis facere. Ad, consectetur! Harum voluptatibus pariatur earum! Molestias sunt reprehenderit quidem.</h3>
+            <a href="#" class="btn">Read More</a>
+          </div>
+        </div>
+        <div class="postBox extraHeight">
+          <div class="imgBx">
+            <img src="images/post3.jpg" class="cover">
+          </div>
+          <div class="textBx">
+            <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur dolores neque similique nesciunt reiciendis facere. Ad, consectetur! Harum voluptatibus pariatur earum! Molestias sunt reprehenderit quidem.</h3>
+            <a href="#" class="btn">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="postColumn">
+        <div class="postBox extraHeight">
+          <div class="imgBx">
+            <img src="images/post4.jpg" class="cover">
+          </div>
+          <div class="textBx">
+            <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur dolores neque similique nesciunt reiciendis facere. Ad, consectetur! Harum voluptatibus pariatur earum! Molestias sunt reprehenderit quidem.</h3>
+            <a href="#" class="btn">Read More</a>
+          </div>
+        </div>
+        <div class="postBox">
+          <div class="imgBx">
+            <img src="images/post5.jpg" class="cover">
+          </div>
+          <div class="textBx">
+            <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur dolores neque similique nesciunt reiciendis facere. Ad, consectetur! Harum voluptatibus pariatur earum! Molestias sunt reprehenderit quidem.</h3>
+            <a href="#" class="btn">Read More</a>
+          </div>
+        </div>
+        <div class="postBox">
+          <div class="imgBx">
+            <img src="images/post6.jpg" class="cover">
+          </div>
+          <div class="textBx">
+            <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur dolores neque similique nesciunt reiciendis facere. Ad, consectetur! Harum voluptatibus pariatur earum! Molestias sunt reprehenderit quidem.</h3>
+            <a href="#" class="btn">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="postColumn">
+        <div class="postBox">
+          <div class="imgBx">
+            <img src="images/post7.jpg" class="cover">
+          </div>
+          <div class="textBx">
+            <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur dolores neque similique nesciunt reiciendis facere. Ad, consectetur! Harum voluptatibus pariatur earum! Molestias sunt reprehenderit quidem.</h3>
+            <a href="#" class="btn">Read More</a>
+          </div>
+        </div>
+        <div class="postBox">
+          <div class="imgBx">
+            <img src="images/post8.jpg" class="cover">
+          </div>
+          <div class="textBx">
+            <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur dolores neque similique nesciunt reiciendis facere. Ad, consectetur! Harum voluptatibus pariatur earum! Molestias sunt reprehenderit quidem.</h3>
+            <a href="#" class="btn">Read More</a>
+          </div>
+        </div>
+        <div class="postBox extraHeight">
+          <div class="imgBx">
+            <img src="images/post9.jpg" class="cover">
+          </div>
+          <div class="textBx">
+            <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur dolores neque similique nesciunt reiciendis facere. Ad, consectetur! Harum voluptatibus pariatur earum! Molestias sunt reprehenderit quidem.</h3>
+            <a href="#" class="btn">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="title">
+      <a href="#" class="btn mgt60">Load More</a>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <div class="title">
+      <h2>Get in Touch</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi inventore maiores est dolorum sapiente facilis rerum amet repellat corporis praesentium!</p>
+    </div>
+    <div class="contactForm">
+      <div class="row">
+        <input type="text" name="" placeholder="First Name">
+        <input type="text" name="" placeholder="Last Name">
+      </div>
+      <div class="row">
+        <input type="text" name="" placeholder="Email Address">
+        <input type="text" name="" placeholder="Mobile No.">
+        </div>
+        <div class="row2">
+          <textarea placeholder="Message"></textarea>
+        </div>
+        <div class="row2">
+          <input type="submit" value="Send" class="btn">
+        </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer>
+    <a href="#" class="logo">My Blog</a>
+    <ul class="footerMenu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#post">Post</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <p class="copyrightText">It's just text. You can copy, I'm not sorry)</p>
+  </footer>
+  <script>
+    const menuToggle = document.querySelector('.header__menu-toggle');
+    const navigation = document.querySelector('.navigation');
+    
+    menuToggle.onclick = function(){
+      menuToggle.classList.toggle('active');
+      navigation.classList.toggle('active');
+    }
+
+    window.addEventListener('scroll', function(){
+      const header = document.querySelector('header');
+      header.classList.toggle('sticky', window.scrollY > 0);
+    })
+
+    function toggleMenu(){
+      menuToggle.classList.remove('active');
+      navigation.classList.remove('active');
+    }
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
